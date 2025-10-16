@@ -1,5 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
-
+import Header from "../components/Header";
 type Contact = {
   id: string;
   first_name: string | null;
